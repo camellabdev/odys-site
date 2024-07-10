@@ -226,11 +226,11 @@ body{
   color: white;
 }
 #mc_embed_signup .button{
-  background-color: #F66F4D;
-  border: none;
-  padding: 0.5rem;
-  border-radius: 10px;
-  color: white;
+  background-color: #F66F4D !important; 
+  border: none !important;
+  padding: 0.5rem !important;
+  border-radius: 10px !important;
+  color: white !important;
 }
 .main-container{
   width: 80vw;
