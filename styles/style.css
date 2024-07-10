@@ -225,7 +225,13 @@ body{
   border-radius: 10px;
   color: white;
 }
-
+#mc-embedded-subscribe .button{
+  background-color: #F66F4D;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: white;
+}
 .main-container{
   width: 80vw;
   max-width: 1400px;
