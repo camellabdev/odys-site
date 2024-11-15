@@ -115,7 +115,7 @@ body{
 
 .responsive-class{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 
@@ -189,6 +189,14 @@ body{
   align-items: center;
 }
 
+#mc_embed_signup_scroll .button {
+  display: block;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+}
+
 #second-section{
   display: flex;
   flex-direction: column;
@@ -226,6 +234,10 @@ body{
   color: white;
 }
 
+#text_area {
+  width: 100%;
+}
+
 #mc_embed_signup .button{
   background-color: #F66F4D !important; 
   border: none !important;
@@ -243,7 +255,12 @@ body{
 }
 .optionalParent{
   display: flex;
+} 
+
+h4 {
+  color: #D96704 !important;
 }
+
 @media screen and (max-width: 600px) {
   .responsive-class {
     display: flex;
